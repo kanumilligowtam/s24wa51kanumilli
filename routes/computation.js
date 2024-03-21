@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
     var D = Math.floor(Math.random() *10)
     var R = Math.floor(Math.random() *10)
 
-    function cos(D, R) {
+    function acosh(D, R) {
         return Math.acosh(D) * R;
     }
 
